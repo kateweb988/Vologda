@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" /> -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+
+	<title>Vologda Wood</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<!-- Favicon -->
+	<!-- <link rel="icon" href="img/fav.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/fav.png" type="image/x-icon"> -->
+	<!-- OG -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+
+	<meta property="og:locale" content="ru-Ru">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vjik/arcticModal@master/arcticmodal/jquery.arcticmodal.css">
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+	<div class="body-wrap page">
+		<header class="header" id="header">
+			<nav class="nav">
+				<div class="container">
+					<div class="nav__box q">
+						<a href="main.html" class="nav__logo">
+							<img src="img/logo.svg" alt="">
+						</a>
+						<ul>
+							<li class="nav__open">
+								<a href="#">
+									Каталог
+								</a>
+								<div class="nav-menu">
+									<p class="nav-menu__title">
+										каталог нашей продукции
+									</p>
+									<ul class="submenu">
+										<li class="submenu_item">
+											<a href="#">
+												<svg class="icon">
+													<use xlink:href="img/svg-sprite.svg#icon1"></use>
+												</svg>
+												<div>
+													<p>
+														Пеллеты
+													</p>
+													<span>
+														Хвойные / Берёзовые
+													</span>
+												</div>
+											</a>
+										</li>
+										<li class="submenu_item">
+											<a href="#">
+												<svg class="icon">
+													<use xlink:href="img/svg-sprite.svg#icon2"></use>
+												</svg>
+												<div>
+													<p>
+														Евро-дрова
+													</p>
+													<span>
+														Премиум брикеты (RUF)
+													</span>
+												</div>
+											</a>
+										</li>
+										<li class="submenu_item">
+											<a href="#">
+												<svg class="icon">
+													<use xlink:href="img/svg-sprite.svg#icon3"></use>
+												</svg>
+												<div>
+													<p>
+														Стружка
+													</p>
+													<span>
+														Чистая белая стружка
+													</span>
+												</div>
+											</a>
+										</li>
+										<li class="submenu_item">
+											<a href="#">
+												<svg class="icon">
+													<use xlink:href="img/svg-sprite.svg#icon4"></use>
+												</svg>
+												<div>
+													<p>
+														Щепа
+													</p>
+													<span>
+														Крупная щепа
+													</span>
+												</div>
+											</a>
+										</li>
+										<li class="submenu_item">
+											<a href="#">
+												<svg class="icon">
+													<use xlink:href="img/svg-sprite.svg#icon5"></use>
+												</svg>
+												<div>
+													<p>
+														Древесная мука
+													</p>
+													<span>
+														Различных марок (120 - 1250)
+													</span>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+									О компании
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Блог
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Контакты
+								</a>
+							</li>
+						</ul>
+						<div class="nav__info q">
+							<div class="nav__area">
+								<div class="nav__copy q">
+									<svg class="icon nav__copy_icon">
+										<use xlink:href="img/svg-sprite.svg#copy"></use>
+									</svg>
+									<a href="mailto:zakaz@voldrev.ru">
+										zakaz@voldrev.ru
+									</a>
+								</div>
+								<div class="notification">Почта скопирована</div>
+							</div>
+							<div class="nav__tel">
+								<p>
+									пн-пт: 9:00 - 18:00
+								</p>
+								<a href="tel:+79211341545">
+									+7 (921) 134-15-45
+								</a>
+							</div>
+						</div>
+						<div class="menu-btn">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="menu">
+				<button class="menu__close"></button>
+				<img src="img/menu-logo.svg" alt="" class="menu__logo">
+				<ul class="menu__list">
+					<li>
+						<a href="#">
+							<svg class="icon">
+								<use xlink:href="img/svg-sprite.svg#nav1"></use>
+							</svg>
+							<p>
+								Главная
+							</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg class="icon">
+								<use xlink:href="img/svg-sprite.svg#nav2"></use>
+							</svg>
+							<p>
+								Доставка
+							</p>
+						</a>
+					</li>
+					<li class="menu__open">
+						<a href="#">
+							<svg class="icon">
+								<use xlink:href="img/svg-sprite.svg#nav3"></use>
+							</svg>
+
+							<p>
+								Каталог
+							</p>
+						</a>
+						<div class="nav-menu">
+							<p class="nav-menu__title">
+								каталог <span> нашей</span> продукции
+							</p>
+							<ul class="submenu">
+								<li class="submenu_item">
+									<a href="#">
+										<svg class="icon">
+											<use xlink:href="img/svg-sprite.svg#icon1"></use>
+										</svg>
+										<div>
+											<p>
+												Пеллеты
+											</p>
+											<span>
+												Хвойные / Берёзовые
+											</span>
+										</div>
+									</a>
+								</li>
+								<li class="submenu_item">
+									<a href="#">
+										<svg class="icon">
+											<use xlink:href="img/svg-sprite.svg#icon2"></use>
+										</svg>
+										<div>
+											<p>
+												Евро-дрова
+											</p>
+											<span>
+												Премиум брикеты (RUF)
+											</span>
+										</div>
+									</a>
+								</li>
+								<li class="submenu_item">
+									<a href="#">
+										<svg class="icon">
+											<use xlink:href="img/svg-sprite.svg#icon3"></use>
+										</svg>
+										<div>
+											<p>
+												Стружка
+											</p>
+											<span>
+												Чистая белая стружка
+											</span>
+										</div>
+									</a>
+								</li>
+								<li class="submenu_item">
+									<a href="#">
+										<svg class="icon">
+											<use xlink:href="img/svg-sprite.svg#icon4"></use>
+										</svg>
+										<div>
+											<p>
+												Щепа
+											</p>
+											<span>
+												Крупная щепа
+											</span>
+										</div>
+									</a>
+								</li>
+								<li class="submenu_item">
+									<a href="#">
+										<svg class="icon">
+											<use xlink:href="img/svg-sprite.svg#icon5"></use>
+										</svg>
+										<div>
+											<p>
+												Древесная мука
+											</p>
+											<span>
+												Различных марок
+											</span>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="#">
+							<svg class="icon">
+								<use xlink:href="img/svg-sprite.svg#nav4"></use>
+							</svg>
+							<p>
+								Галерея
+							</p>
+						</a>
+					</li>
+				</ul>
+				<p class="menu__title">
+					Контакты
+				</p>
+				<div class="menu__per">
+					<a href="tel:+79210512290" class="menu__item">
+						<svg class="icon">
+							<use xlink:href="img/svg-sprite.svg#nav5"></use>
+						</svg>
+						<p>
+							+7 (921) 051-22-90
+						</p>
+					</a>
+					<a href="tel:+79210549511" class="menu__item">
+						<svg class="icon">
+							<use xlink:href="img/svg-sprite.svg#nav5"></use>
+						</svg>
+						<p>
+							+7 (921) 054-95-11
+						</p>
+					</a>
+					<a href="mailto:zakaz@voldrev.ru" class="menu__item">
+						<svg class="icon">
+							<use xlink:href="img/svg-sprite.svg#nav6"></use>
+						</svg>
+						<p>
+							zakaz@voldrev.ru
+						</p>
+					</a>
+					<a href="#" class="menu__item" target="_blank">
+						<svg class="icon">
+							<use xlink:href="img/svg-sprite.svg#nav7"></use>
+						</svg>
+						<p>
+							Telegram
+						</p>
+					</a>
+					<a href="#" class="menu__item" target="_blank">
+						<svg class="icon">
+							<use xlink:href="img/svg-sprite.svg#nav8"></use>
+						</svg>
+						<p>
+							Whatsapp
+						</p>
+					</a>
+				</div>
+				<div class="menu__scroll">
+					<div class="menu-block">
+						<img src="img/block.svg" alt="">
+						<p class="menu-block__title">
+							Мало информации?
+						</p>
+						<p class="menu-block__text">
+							Расскажем о всех преимуществах наших продуктах
+						</p>
+						<a href="#">
+							Оставить заявку
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="top top-news" id="top">
+			<div class="container">
+				<div class="top__wrap">
+					<img src="img/bg2.png" alt="" class="top__bg">
+					<span>
+						Евро-дрова (RUF)
+					</span>
+					<p>
+						Сентябрь 11, 2024
+					</p>
+					<h1>
+						Эффективность сжигания: Пеллеты обладают высокой плотностью и однородной формой
+					</h1>
+				</div>
+				<ul class="breadcrumb">
+					<li>
+						<a href="#">
+							Новости
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Евро дрова (RUF)
+						</a>
+					</li>
+					<li class="active">
+						Эффективность сжигания: Пеллеты обладают высокой плотностью и однородной формой
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="about" id="about">
+			<div class="container">
+				<div class="about__box q">
+					<div class="about__content">
+						<h2>
+							Почему брикеты лучше?
+						</h2>
+						<p>
+							Брикеты РУФ обладают высокой теплотворной способностью, выделяя в 2,5 раза больше тепла по
+							сравнению с дровами. Они образуют меньше золы, что снижает затраты на обслуживание котлов и печей.
+							Для отопительного сезона потребуется в 2-3 раза меньше брикетов, чем дров, что также экономит
+							пространство для хранения и упрощает транспортировку. Брикеты компактны и не требуют колки, что
+							экономит время и силы.
+						</p>
+						<img src="img/about4.png" alt="">
+						<h3>
+							Пеллеты: Экологичное и Эффективное Решение
+						</h3>
+						<p>
+							В современном мире, где вопросы экологии и энергоэффективности становятся все более актуальными,
+							пеллеты занимают лидирующие позиции среди альтернативных источников топлива. Эти небольшие
+							цилиндрические гранулы, производимые из прессованных древесных отходов, не только экономичны, но и
+							полезны для окружающей среды. Давайте рассмотрим основные преимущества и полезные свойства пеллет,
+							которые делают их таким привлекательным выбором для отопления и утепления.
+						</p>
+						<h3>
+							Экологичность и устойчивость
+						</h3>
+						<ul>
+							<li>
+								Одним из главных преимуществ пеллет является их экологичность. Они производятся из древесных
+								отходов,
+							</li>
+							<li>
+								таких как опилки и стружка, что позволяет использовать ресурсы более рационально и сокращает
+								количество
+							</li>
+							<li>
+								отходов на лесопилках и деревообрабатывающих предприятиях. В процессе сгорания пеллет выделяется
+								минимальное
+							</li>
+						</ul>
+						<p>
+							Пеллеты отличаются высокой плотностью и низким содержанием влаги, что обеспечивает высокую
+							теплоотдачу при их сгорании. Благодаря этому, они имеют одну из самых высоких калорийностей среди
+							биотоплива. Использование пеллет в качестве топлива позволяет существенно снизить затраты на
+							отопление, особенно в регионах с суровыми зимами. Их энергоэффективность сопоставима с
+							традиционными видами топлива, такими как уголь или газ, но при этом они гораздо более экологичны.
+							Удобство в использовании и хранении
+						</p>
+						<p>
+							Еще одним важным аспектом является удобство использования и хранения пеллет. Они упаковываются в
+							мешки, которые легко транспортировать и хранить даже в небольших помещениях. Пеллеты не пылят, не
+							выделяют неприятных запахов и не требуют сложных условий хранения. Кроме того, современные
+							пеллетные котлы и печи автоматизированы и позволяют поддерживать нужную температуру с минимальным
+							вмешательством человека. Это значительно упрощает процесс отопления и делает его более комфортным.
+						</p>
+					</div>
+					<div class="about__news">
+						<div class="swiper2">
+							<a href="#" class="swiper-slide">
+								<img src="img/news1.png" alt="">
+								<div>
+									Пеллеты
+								</div>
+								<h2>
+									Эффективность сжигания: Пеллеты обладают высокой плотностью и однородной формой...
+								</h2>
+								<span>
+									Сентябрь 11, 2024
+								</span>
+							</a>
+							<a href="#" class="swiper-slide">
+								<img src="img/news2.png" alt="">
+								<div>
+									Древесная мука
+								</div>
+								<h2>
+									Эффективность сжигания: Пеллеты обладают высокой плотностью и однородной формой...
+								</h2>
+								<span>
+									Сентябрь 11, 2024
+								</span>
+							</a>
+							<a href="#" class="swiper-slide">
+								<img src="img/news3.png" alt="">
+								<div>
+									Евро-дрова (RUF)
+								</div>
+								<h2>
+									Эффективность сжигания: Пеллеты обладают высокой плотностью и однородной формой...
+								</h2>
+								<span>
+									Сентябрь 11, 2024
+								</span>
+							</a>
+						</div>
+						<a href="#" class="about__more btn">
+							Показать еще
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="call" id="call">
+			<div class="container">
+				<h2>
+					Наша продукция
+				</h2>
+				<div class="swiper1">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="img/main1.png" alt="">
+							<h3>
+								Евро-дрова (RUF)
+							</h3>
+							<p>
+								Экологически чистый вид топлива из спрессованных древесных опилок..
+							</p>
+							<a href="#" class="btn">
+								ПОКАЗАТЬ ПОДРОБНЕЕ <img src="img/info.svg" alt="" class="svg">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main2.png" alt="">
+							<h3>
+								Премиум пеллеты
+							</h3>
+							<p>
+								Экологически чистый вид топлива, без химических закрепителей.
+							</p>
+							<a href="#" class="btn">
+								ПОКАЗАТЬ ПОДРОБНЕЕ <img src="img/info.svg" alt="" class="svg">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main3.png" alt="">
+							<h3>
+								Древесная стружка
+							</h3>
+							<p>
+								Отборная пушистая стружка хвойных пород древесины для животных и сада.
+							</p>
+							<a href="#" class="btn">
+								ПОКАЗАТЬ ПОДРОБНЕЕ <img src="img/info.svg" alt="" class="svg">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main4.png" alt="">
+							<h3>
+								Древесная мука
+							</h3>
+							<p>
+								Пиломатериал,полученный из распиловки бревна с обработкой со всех сторон.
+							</p>
+							<a href="#" class="btn">
+								ПОКАЗАТЬ ПОДРОБНЕЕ <img src="img/info.svg" alt="" class="svg">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main1.png" alt="">
+							<h3>
+								Евро-дрова (RUF)
+							</h3>
+							<p>
+								Экологически чистый вид топлива из спрессованных древесных опилок..
+							</p>
+							<a href="#" class="btn">
+								ПОКАЗАТЬ ПОДРОБНЕЕ <img src="img/info.svg" alt="" class="svg">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main4.png" alt="">
+							<h3>
+								Древесная мука
+							</h3>
+							<p>
+								Пиломатериал,полученный из распиловки бревна с обработкой со всех сторон.
+							</p>
+							<a href="#" class="btn">
+								ПОКАЗАТЬ ПОДРОБНЕЕ <img src="img/info.svg" alt="" class="svg">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination1 pag"></div>
+				<div class="call__wrap">
+					<div class="call__box q">
+						<div class="call__content">
+							<h2>
+								Заявка на поставку
+							</h2>
+							<p class="call__text">
+								Оставьте свои контактные данные, выберете интересующее вас сырье и наши менеджеры свяжутся с
+								вами в
+								ближайшее время!
+							</p>
+							<form action="success.php" class="call__form js-form" id="popupResult" method="post">
+								<input type="text" placeholder="Имя или Компания *" class="form__field" required="" name="name">
+								<input type="text" placeholder="Ваш номер телефона или E-mail *" class="form__field" required=""
+									name="tel">
+								<select class="select form__field" name="sel">
+									<option value="1">Пеллеты</option>
+									<option value="2">Брикеты RUF</option>
+									<option value="3">Древесную муку</option>
+									<option value="4">Древесную стружку</option>
+								</select>
+								<div class="call__bottom q">
+									<div class="call__flex input-holder checkbox q">
+										<input class="form-check-input custom-checkbox form-control" type="checkbox" name="check"
+											id="form1" value="Я даю свое согласие на обработку персональных данных">
+										<label class="form-check-label " for="form1">
+											<span>
+												Соглашаюсь с условиями <a href="#" target="_blank">Политики конфиденциальности</a>.
+											</span>
+										</label>
+									</div>
+								</div>
+								<button class="btn">
+									Отправить заявку
+								</button>
+							</form>
+						</div>
+						<iframe
+							src="https://yandex.ru/map-widget/v1/?um=constructor%3A45100f9a1f05865a7c94c7c2d7b15ceda0678dfe0e3a43ef325e12f93c6cd270&amp;source=constructor"
+							width="553" height="472" frameborder="0"></iframe>
+					</div>
+					<div class="call__row q">
+						<div class="call__item call__item_1 q">
+							<p>
+								Телефоны:
+							</p>
+							<a href="tel:+79210549511">
+								+7 (921) 054-95-11
+							</a>
+						</div>
+						<div class="call__item call__item_2 q">
+							<p>
+								E-mail:
+							</p>
+							<a href="mailto:vologodskaj-drevesina@mail.ru">
+								vologodskaj-drevesina@mail.ru
+							</a>
+						</div>
+						<div class="call__item call__item_3 q">
+							<p>
+								Адрес:
+							</p>
+							<span>
+								г. Вологда, Советский пр-кт, д. 35а
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer" id="footer">
+			<div class="container">
+				<div class="footer__box q">
+					<div class="footer__content">
+						<img src="img/f-logo.svg" alt="" class="footer__logo">
+						<p class="footer__name">
+							Коротко о нас
+						</p>
+						<p class="footer__text">
+							Поставки пеллет, щепы, брикетов RUF и стружки от 20 тонн. Надежное партнерство для эффективного
+							развития вашего бизнеса.
+						</p>
+						<div class="footer__info q">
+							<a href="#" class="footer__link" target="_blank">
+								<img src="img/f1.svg" alt="">
+								<p class="mob">
+									WhatsApp
+								</p>
+							</a>
+							<p class="footer__mob mob">
+								© 1976 —2045 Vologodskay-Drevesina Надежность. Точность. Экономия.  Информация, размещенная на
+								сайте, не является публичной офертой
+							</p>
+							<a href="#" class="footer__com" target="_blank">
+								<p>
+									Разработано в
+								</p>
+								<img src="img/com.svg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="footer__lists q">
+						<div class="footer__item">
+							<p>
+								Меню
+							</p>
+							<ul>
+								<li>
+									<a href="#">
+										На главную
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Каталог
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Галерея
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Блог
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__item">
+							<p>
+								продукция
+							</p>
+							<ul>
+								<li>
+									<a href="#">
+										Пеллеты
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Брикеты RUF
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Стружка
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Древесная мука
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<a href="#header" class="go_to footer__top">
+						<img src="img/top1.svg" alt="">
+						<p>
+							ВВЕРХ
+						</p>
+					</a>
+				</div>
+			</div>
+		</footer>
+		<div class="menu-bg"></div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
+	<script src="js/all.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/vjik/arcticModal@master/arcticmodal/jquery.arcticmodal.js"></script>
+	<!-- Подключен файл-валидатор, для проверки формы на заполненность  -->
+	<script type="text/javascript"
+		src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+</body>
+
+</html>
